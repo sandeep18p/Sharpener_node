@@ -1,0 +1,23 @@
+.cp {
+    /* display: inline-block;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-left: auto; */
+    display: inline-block;
+    position: relative;
+    right: 0%;
+    top: 0%;
+}
+#toShow{
+    list-style: none;
+}
+.op{
+    border-radius: 10%;
+    color: aqua;
+    background-color: black;
+}
+
+.ok{
+    align-items: center;
+    
+}
