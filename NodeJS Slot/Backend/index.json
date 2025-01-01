@@ -1,0 +1,21 @@
+{
+    "slots": [
+      {
+        "time": "2:00 PM - 2:30 PM",
+        "available": 4
+      },
+      {
+        "time": "2:30 PM - 3:00 PM",
+        "available": 4
+      },
+      {
+        "time": "3:00 PM - 3:30 PM",
+        "available": 4
+      },
+      {
+        "time": "3:30 PM - 4:00 PM",
+        "available": 4
+      }
+    ]
+  }
+  

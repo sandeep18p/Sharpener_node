@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Available Slots</h1>
+        <div id="slots-container"></div>
+
+      
+        <div id="booking-form" class="hidden">
+            <h2>Enter Your Details</h2>
+            <form id="form">
+                <input type="text" id="name" placeholder="Enter your name" required />
+                <input type="email" id="email" placeholder="Enter your email" required />
+                <button type="submit">Book Slot</button>
+            </form>
+        </div>
+
+        <h2>Your Bookings</h2>
+        <div id="bookings-container">
+           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
