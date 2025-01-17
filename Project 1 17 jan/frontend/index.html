@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="one">
+                <label for="date">Select a Date:</label>
+            <input type="date" id="date">
+            <button id="search-btn">Search</button>
+            </div>
+            <div class="one">
+                <button id="fetch-report-btn">Fetch Report</button>
+            </div>
+        </div>
+
+        <!-- Attendance Section -->
+        <div class="attendance" id="attendance">
+            <ul>
+                <li>
+                    Siva
+                    <label>
+                        <input type="radio" name="siva" value="Present"> Present
+                    </label>
+                    <label>
+                        <input type="radio" name="siva" value="Absent"> Absent
+                    </label>
+                </li>
+                <li>
+                    Rajesh
+                    <label>
+                        <input type="radio" name="rajesh" value="Present"> Present
+                    </label>
+                    <label>
+                        <input type="radio" name="rajesh" value="Absent"> Absent
+                    </label>
+                </li>
+                <li>
+                    Ashok
+                    <label>
+                        <input type="radio" name="ashok" value="Present"> Present
+                    </label>
+                    <label>
+                        <input type="radio" name="ashok" value="Absent"> Absent
+                    </label>
+                </li>
+                <li>
+                    Sai
+                    <label>
+                        <input type="radio" name="sai" value="Present"> Present
+                    </label>
+                    <label>
+                        <input type="radio" name="sai" value="Absent"> Absent
+                    </label>
+                </li>
+                <!-- Repeat for other names -->
+            </ul>
+            <button id="submit-btn">Mark Attendance</button>
+        </div>
+
+       
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
